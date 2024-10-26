@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>togler topup user input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-cont">
+
+        <button class="login-btn" onclick="onLogin()">login</button>
+        <button class="sigup-btn" onclick="onsigup()">sigup</button>
+
+
+        <form class="login-fonm" id="login">
+  <h2>login</h2>
+            <input type="email" placeholder="enter email">
+            <input type="number" placeholder="enter number">
+            <input type="password" placeholder="enter your password">
+<br><br>
+
+            <button onclick="removelLogin()">login</button>
+        </form>
+
+
+
+        <form class="sigup-form" id="sigup">
+
+           <h2> sig-up</h2>
+            <input type="name" placeholder="enter your name">
+            <input type="email" placeholder="enter email">
+            <input type="number" placeholder="enter number">
+
+            <input type="password" placeholder="enter your password">
+<br><br>
+            <button onclick="removelSigup()">sigup</button>
+           
+        </form>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
